@@ -4,8 +4,8 @@ fetch('https://jsonplaceholder.typicode.com/users')
 })
 .then(data => {
     data.forEach(user => {
-        const markup = `<li>${user.name}</li>`;
-        document.querySelector('ul').insertAdjacentHTML('beforeend', markup);
+        const markup = `<tr><td>${user.id}</td><td>${user.name}</td></tr>`;
+        document.querySelector('#table-data').insertAdjacentHTML('beforeend', markup);
     });
 })
 .catch (error => console.log(error))
