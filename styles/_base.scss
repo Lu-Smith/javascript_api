@@ -5,36 +5,8 @@
 }
 
 body {
-    color: red;
+    color: $primary-color;
     text-align: center;
     margin: 20px;
 }
 
-table {
-    margin: 50px auto;
-    border-collapse: collapse;
-    width: 90%;
-}
-
-th,
-td {
-  padding: 20px;
-  text-align: center;
-  border: 2px solid black;
-}
-
-th {
-  background-color: grey;
-  color: black;
-  font-weight: bold;
-}
-
-tr:nth-child(even) {
-  background-color: rgb(211, 172, 172);
-  color: black;
-}
-
-tr:hover {
-  background-color: red;
-  color: white;
-}

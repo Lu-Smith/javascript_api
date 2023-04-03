@@ -5,7 +5,7 @@
 }
 
 body {
-  color: red;
+  color: #00204a;
   text-align: center;
   margin: 20px;
 }
@@ -20,21 +20,19 @@ th,
 td {
   padding: 20px;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #fdb44b;
 }
 
 th {
-  background-color: grey;
-  color: black;
+  background-color: #fdb44b;
   font-weight: bold;
 }
 
 tr:nth-child(even) {
-  background-color: rgb(211, 172, 172);
-  color: black;
+  background-color: #00bbf0;
 }
 
 tr:hover {
-  background-color: red;
-  color: white;
+  background-color: #fdb44b;
+  color: #005792;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,27 @@
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+    width: 90%;
+
+}
+
+th,
+td {
+  padding: 20px;
+  text-align: center;
+  border: 2px solid $secondary-background;
+}
+
+th {
+  background-color: $secondary-background;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: $primary-background;
+}
+
+tr:hover {
+  background-color: $secondary-background;
+  color: $secondary-color;
+}
